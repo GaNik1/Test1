@@ -17,7 +17,7 @@ deposit = [bankTKB, bankCKB, bankVTB, bankSBER]
 # Вывести в консоль список возможных доходов
 print("Возможный доход:", deposit)
 # Сформировать список доходов в каждом банке
-#max_deposit = max(deposit)
+max_deposit = max(deposit)
 
 #показать максимальный доход
 print("Максимальная сумма дохода по вкладу равна - ", max_deposit, 'рублей')
